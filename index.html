@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h2>Home</h2>
+            <div id="home-scr" class="scr-board">0</div>
+            <div class="btn-contain">
+                <button class="btn" onclick="homeBonus1()">+1</button>
+                <button class="btn" onclick="homeBonus2()">+2</button>
+                <button class="btn" onclick="homeBonus3()">+3</button>
+            </div>
+        </div>
+     
+        <div>
+            <h2>Guest</h2>
+            <div id="guest-scr" class="scr-board">0</div>
+            <div class="btn-contain">
+                <button class="btn" onclick="guestBonus1()">+1</button>
+                <button class="btn" onclick="guestBonus2()">+2</button>
+                <button class="btn" onclick="guestBonus3()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

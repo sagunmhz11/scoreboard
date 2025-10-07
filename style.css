@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background: linear-gradient(rgba(103, 191, 210, 0.864), rgb(181, 95, 152));
+    background-size: cover;
+    height: 100vh;
+    text-shadow: 0 0 3px black;
+    text-align: center;
+}
+
+.container {
+    height: 50vh;
+    width: 70vw;
+    background: linear-gradient(to right top, rgba(231, 172, 83, 0.914), rgba(206, 94, 169, 0.872));
+    display: flex;
+    justify-content: space-around;
+    margin: 140px auto 0;
+}
+
+h2 {
+    font-size: 29px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.scr-board {
+    height: 30vh;
+    width: 20vw;
+    background-color: rgba(0, 0, 0, 0.779);
+    align-content: center;
+    font-size: 80px;
+
+    font-family: "Doto", sans-serif;
+}
+
+.btn {
+    padding: 5px 9px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-family: "Doto", sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    text-shadow: 0 0 10px black;
+}
